@@ -6,14 +6,18 @@ body{
    
     
 }
-
-
-img{
-    margin-left: 450px;
-    width: 290px;
-    
+div{
+    max-width: fit-content;
+    margin-left:auto;
+    margin-right: auto;
 }
-
+.battleground{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.player{
+    rotate: -90deg;
+}
 .h{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
@@ -22,11 +26,13 @@ img{
 }
 
 .name{
+    max-width: fit-content;
     font-family:Arial, Helvetica, sans-serif;
     color: white;
     font-size: 35px;
     display: flex;
-    margin-left: 700px;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
@@ -38,60 +44,30 @@ p{
     margin-top: 0;
 
 }
-.button{
-    background-color: #04AA6D;
+button{
+    background-color: #3095c4;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 15px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 30px;
     margin: 4px 10px;
     cursor: pointer;
-     
-}
-.button2{
-   margin-left:40px;
-   background-color: #04AA6D;
-   border: none;
-   color: white;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 30px;
-   margin: 4px 10px;
-   cursor: pointer;
-}
-
-.button3{
-   margin-left: 40px;
-   background-color: #04AA6D;
-   border: none;
-   color: white;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 30px;
-   margin: 4px 10px;
-   cursor: pointer;
-}
-
-.rr{
-    margin-left: 700px;
+    margin-left: 20px;
+    width: 200px;
     
+     
 }
 
 footer{
-    position: absolute;
+    margin-top: 30px;
     bottom: 0;
     color: white;
     text-align: center;
-    right: 0;
-    left: 0;
-
-
+}
+img{
+    width: 200px;
+    height: 200px;
 }
 
