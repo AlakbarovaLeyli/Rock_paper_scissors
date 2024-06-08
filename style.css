@@ -3,8 +3,6 @@ body{
     background-image: radial-gradient(#2e2947,rgb(17, 14, 31));
     background-repeat: no-repeat;
     background-attachment:fixed;
-   
-    
 }
 div{
     max-width: fit-content;
@@ -14,15 +12,20 @@ div{
 .battleground{
     margin-top: 60px;
     margin-bottom: 50px;
+    justify-content: center;
 }
 .player{
     rotate: -90deg;
+    
 }
+
 .h{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
     text-align: center;
     font-size: 47px;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    
 }
 
 .name{
@@ -42,23 +45,39 @@ p{
     color: white;
     text-align: center;
     margin-top: 0;
+    text-shadow: 1px 1px 3px #f924eb;
 
 }
 button{
     background-color: #3095c4;
     border: none;
+    border-radius: 10px;
     color: white;
     padding: 15px;
     text-align: center;
     text-decoration: none;
     font-size: 30px;
-    margin: 4px 10px;
     cursor: pointer;
-    margin-left: 20px;
     width: 200px;
-    
-     
+    text-shadow: 2px 2px 5px rgb(0, 234, 255);
+    transition: 0.1s;
 }
+button:hover{
+    background-color: rgb(0, 26, 255);
+    width: 250px;
+}
+button:active{
+    background-color: #00c3ff;
+    width: 250px;
+}
+
+table{
+    text-align: center;
+}
+td{
+    width: 250px;
+}
+
 
 footer{
     margin-top: 30px;
@@ -70,4 +89,9 @@ img{
     width: 200px;
     height: 200px;
 }
-
+@media only screen and (max-width: 800px) {
+    button{
+        width: 150px;
+        font-size: 20px;
+    }
+  }
